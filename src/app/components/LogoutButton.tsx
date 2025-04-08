@@ -1,12 +1,16 @@
-'use client'
+'use client';
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import { useDispatch } from 'react-redux';
+import { logout } from '../store/authSlice';
 
 const LogoutButton = () => {
   const router = useRouter();
+  const dispatch = useDispatch();
 
   const handleLogout = () => {
     localStorage.removeItem('userToken');
+    dispatch(logout());
     router.push('/');
   };
 
