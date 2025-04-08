@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "password123"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "2",
+      "name": "Business1",
+      "location": "Place1",
+      "type": "restaurant"
+    },
+    {
+      "id": "3",
+      "name": "Business2",
+      "location": "Place2",
+      "type": "club"
+    },
+    {
+      "id": "4",
+      "name": "Business3",
+      "location": "Place3",
+      "type": "bar"
+    }
+  ],
+  "staff": {
+    "2": [
+      {
+        "firstName": "Name1",
+        "lastName": "Last1",
+        "position": "Pos1",
+        "email": "mail1",
+        "id": 1,
+        "businessId": 2
+      },
+      {
+        "firstName": "Name2",
+        "lastName": "Last2",
+        "position": "Pos2",
+        "email": "mail2",
+        "id": 2,
+        "businessId": 2
+      },
+      {
+        "firstName": "Name3",
+        "lastName": "Last3",
+        "position": "Pos3",
+        "email": "mail3",
+        "id": 3,
+        "businessId": 2
+      }
+    ],
+    "3": [
+      {
+        "firstName": "John",
+        "lastName": "Doe",
+        "position": "Manager",
+        "email": "john@example.com",
+        "id": 1,
+        "businessId": 3
+      },
+      {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "position": "Assistant Manager",
+        "email": "jane@example.com",
+        "id": 2,
+        "businessId": 3
+      },
+      {
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "position": "Bartender",
+        "email": "michael@example.com",
+        "id": 3,
+        "businessId": 3
+      }
+    ],
+    "4": [
+      {
+        "firstName": "Alice",
+        "lastName": "Brown",
+        "position": "Host",
+        "email": "alice@example.com",
+        "id": 1,
+        "businessId": 4
+      },
+      {
+        "firstName": "Bob",
+        "lastName": "Davis",
+        "position": "Security",
+        "email": "bob@example.com",
+        "id": 2,
+        "businessId": 4
+      },
+      {
+        "firstName": "Charlie",
+        "lastName": "Wilson",
+        "position": "Server",
+        "email": "charlie@example.com",
+        "id": 3,
+        "businessId": 4
+      }
+    ]
+  }
+}
