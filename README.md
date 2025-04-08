@@ -18,9 +18,6 @@ Redux – State management
 
 JSON Server – Mock REST API for development and testing
 
-1. Install dependencies
-   npm i
+1. Install dependencies  run 'npm i'
 2. Run the App
-   Open two terminals
-   Terminal 1: Start the dev server  ' npm run dev '
-   Terminal 2: Start the mock API server ' npm run json-server '
+3. Open two terminals - Terminal 1: Start the dev server  ' npm run dev '  | Terminal 2: Start the mock API server ' npm run json-server '
