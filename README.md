@@ -21,5 +21,3 @@ JSON Server – Mock REST API for development and testing
 1. Install dependencies  run 'npm i'
 2. Run the App
 3. Open two terminals - Terminal 1: Start the dev server  ' npm run dev '  | Terminal 2: Start the mock API server ' npm run json-server '
-
-App is also uploaded to github pages and is accessible here : 'https://odysseaskarastergiou.github.io/joke-collection-assignment/'
